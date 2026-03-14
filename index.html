@@ -292,8 +292,7 @@ searchVoter(text)
 
 function loadExcel(){
 
-fetch("full_voter_new.xlsx")
-
+fetch("data/full_voter_new.xlsx")
 .then(res=>res.arrayBuffer())
 
 .then(data=>{
